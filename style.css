@@ -1,0 +1,108 @@
+html {
+  font-size: 100%;
+  background: linear-gradient(#828282, #282828);
+  padding: 2em;
+  cursor: url("cursor.png"), auto;
+}
+
+h1 {
+  font-size: 500%; 
+  color: rgb(242, 79, 79);
+  text-align: center;
+  margin: 1em;
+}
+
+h2 {
+  font-size: 250%;
+  color: rgb(230, 128, 73);
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+h3 {
+  font-size: 150%;
+  color: rgb(230, 170, 73);
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+h4 {
+  font-size: 125%;
+  color: rgb(230, 193, 73);
+  margin-bottom: 1px;
+  margin-top: 1em;
+}
+
+p {
+  color: rgb(239, 238, 199);
+  font-family: cursive;
+  font-size: 100%;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  text-align: justify;
+}
+
+img {
+  max-width:50em;
+  max-height: 50em;
+  display: block;
+  margin: auto;
+}
+
+a {
+  font-size: 100%;
+  color:lightsalmon;
+}
+
+a:visited {
+  color:salmon;
+}
+
+a:hover {
+  cursor: url("cursor1t.png"), auto;
+}
+
+a.cache {
+  color: rgb(230, 210, 180);
+  text-decoration: none;
+}
+
+#titre_lien_cache {
+  color: rgb(242, 79, 79);
+  text-decoration: none;
+}
+
+a.cache:hover {
+  color: lightsalmon;
+}
+
+.legende {
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style: url(feu.png);
+}
+
+iframe {
+  display: block;
+  width: 50%;
+  height: 250;
+  margin: auto;
+}
+
+.special {
+  color: rgb(247, 118, 118);
+  font-style: oblique;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+#sommaire {
+  background-color: #8a6e6e;
+  float: left;
+  padding: 2%;
+}
